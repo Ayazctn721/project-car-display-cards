@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/pattern.png);
+    background-size: contain;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5) ;
+}
+
+.card-economy h1 {
+    color: brown;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-economy a {
+    background-color: brown;
+}
+
+.card-economy a:hover {
+    background-color: rgb(146, 33, 33);
+}
+.card-economy a:active {
+    background-color: rgb(112, 7, 7);
+}
+
+.card-luxury h1 {
+    color: blue;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-luxury a {
+    background-color: blue;
+}
+
+.card-luxury a:hover {
+    background-color:rgb(3, 3, 206);
+}
+.card-luxury a:active {
+    background-color: rgb(2, 2, 133);
+}
+
+.card-family h1 {
+    color: green;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-family a {
+    background-color:green;
+}
+.card-family a:hover {
+    background-color:rgb(1, 95, 1);
+}
+.card-family a:active {
+    background-color:rgb(1, 75, 1);
+}
+
+.card p {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card-economy {
+    background: white url(../assets/economic-car.png) no-repeat right;
+    background-size: contain;
+}
+
+.card-luxury {
+    background: white url(../assets/luxury-car.png) no-repeat right;
+    background-size: contain;
+}
+
+.card-family {
+    background: white url(../assets/family-car.png) no-repeat right;
+    background-size: contain;
+}
